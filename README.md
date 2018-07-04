@@ -1,5 +1,5 @@
 # MAAK-TEAM
-Welcome to our first project as a new team ‏with simple skill in web programming in HTML & CSS & JAVASCRIPT
+Welcome to our first project as a new team ‏with simple skill in web programming in [ HTML & CSS & JAVASCRIPT ]
 This project is the project that will be the start of our business.
 Today you will see this road radiates with more successful projects day after day so keep your view on us.
 In this project we will show you the website of the team and its members and the skills we have and our social networking sites.
@@ -57,14 +57,14 @@ The site consists of four sections .
 ## HOW ?
 
 1. Firstly we discussion how to build site .
-2. We are try drawing out rough sketches of our site first.
-3. Agree us on a design to work towards throughout the project.
-4. Creating new repo name "MAAK-Team"
-5. Adding issues to our github repo
-6. We decide to use and stick to a particular naming convention for your CSS
-7. We were encounter merge conflicts when working together on the same files but our solve the proplem .
-8. We check our site is any client to accessible .
-9. Finally check the site in many website example : [IDI Web Accessibility Checker](https://achecker.ca/checker/index.php)
+2. We were try drawing out rough sketches of our site first.
+3. Then agree us on a design to work towards throughout the project.
+4. Creating new repo name "MAAK-Team".
+5. Adding issues to our github repo.
+6. We decide to use and stick to a particular naming convention for your css.
+7. We were encounter merge conflicts when working together on the same files but solve our the proplem .
+8. We were check our site is any client to accessibl.
+9. Finally check the site in many website example : [IDI Web Accessibility Checker.](https://achecker.ca/checker/index.php)
 
 
 ---
