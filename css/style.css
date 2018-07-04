@@ -1,113 +1,130 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: 'Cairo', sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Cairo', sans-serif;
+  box-sizing: border-box;
+}
 
-    background-color:#F1F1F1;
-    }
-.container{
-    margin: 0 auto;
-    width: 80%;
-
+.container {
+  margin: 0 auto;
+  width: 80%;
 }
 
 /***********Mohannad Work*********/
-.contact-us{
-margin-top:50px; 
-    padding: 45px 0;
+
+.contact-us {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 45px 0;
 }
-form{
-    width: 80%;
-    margin: auto;
+
+form {
+  width: 80%;
+  margin: auto;
 }
-.contact-us .contentS{
-    background-color: #f1f1f1;
-    position: absolute;
-    top: 0;
-    left: 0;
+
+.contact-us .contentS {
+  background-color: #f1f1f1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  -webkit-transform: rotate(6deg);
+  z-index: -1;
+  box-shadow: 8px 8px 20px #afaeae;
+}
+
+.contact-us .content {
+  background-color: #F1F1F1;
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+  padding: 30px 0;
+  border-radius: 15px;
+  position: relative;
+  z-index: 99999;
+  box-shadow: 8px 8px 20px #afaeae;
+}
+
+.contact-us .content h2 {
+  color: #575757;
+}
+
+.contact-us .content h2 span {
+  color: #00BB5F;
+}
+
+.contact-us .content button {
+  border-radius: 100px;
+  padding: 4px 34px;
+  border: none;
+  background-color: #00BB5F;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.contact-us .content .cc {
+  margin: 30px;
+}
+
+.contact-us .content .cc label {
+  margin: 0 30px;
+  float: left;
+  color: #575757;
+}
+
+.contact-us .content .cc input {
+  width: 230px;
+  border: 1px solid #575757;
+  padding: 0 5px;
+  letter-spacing: 1px;
+  border-radius: 20px;
+}
+
+.contact-us .content .cc textarea {
+  width: 250px;
+  height: 116px;
+  border: 1px solid #575757;
+  padding: 0 5px;
+  letter-spacing: 1px;
+  border-radius: 5px;
+}
+
+@media (max-width: 900px) {
+  .contact-us .content .cc label {
+    display: none;
+  }
+  .contact-us .contentS {
+    display: none;
+  }
+  .contact-us .content {
     width: 100%;
-    height: 100%;
-    border-radius: 15px;
-    -webkit-transform: rotate(6deg);
-    z-index: -1;
-    box-shadow: 8px 8px 20px #afaeae;
-}
-.contact-us .content{
-    background-color: #F1F1F1;
-    text-align: center;
-    margin: 0 auto;
-    width: 50%;
-    padding: 30px 0;
-    border-radius: 15px;
-    position: relative;
-    z-index: 99999999999999;
-    box-shadow: 8px 8px 20px #afaeae;
-}
-.contact-us .content h2{
-    color: #575757;
-}
-.contact-us .content h2 span{
-    color: #105a36;
-}
-.contact-us .content button{
-    border-radius: 100px;
-    padding: 4px 34px;
-    border: none;
-    background-color: #105a36;
-    color: #FFF;
+  }
+  .contact-us .content .cc input {
+    width: 100%;
+  }
+  .contact-us .content .cc textarea {
+    width: 100%;
+  }
+  .About_us{
+    min-height: 300px;
+    padding-bottom: 20px;
+  }
+  .About_us p{
+
     font-size: 20px;
-    font-weight: bold;
-    letter-spacing: 2px;
-}
-.contact-us .content .cc{
-    margin: 30px;
-}
-.contact-us .content .cc label{
-    margin: 0 30px;
-    float: left;
-    color: #575757;
-}
-.contact-us .content .cc input{
-    width: 230px;
-    border: 1px solid #575757;
-    padding: 0 5px;
-    letter-spacing: 1px;
-    border-radius: 20px;
-}
-.contact-us .content .cc textarea{
-    width: 250px;
-    height: 116px;
-    border: 1px solid #575757;
-    padding: 0 5px;
-    letter-spacing: 1px;
-    border-radius: 5px;
+  }
 }
 
-
-
-
-@media (max-width: 900px){
-    .contact-us .content .cc label{
-        display: none;
-    }
-    .contact-us .contentS{
-        display: none;
-    }
-    .contact-us .content{
-        width: 100%;
-    }
-    .contact-us .content .cc input{
-        width: 100%;
-    }
-    .contact-us .content .cc textarea{
-        width: 100%;
-    }
-}
 /***********Kanna'n Work*********/
-
 
 .Our_Team {
   margin-bottom: 50px;
+  padding-top: 40px;
 }
 
 .container_box {
@@ -130,23 +147,45 @@ form{
   border-radius: 50%;
   margin: 0 auto;
 }
-.img_shadow{
+
+.asala {
+  background-image: url(../img/person_02.jpg);
+  height: 200px;
+  width: 200px;
+  background-size: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.Mohannad{
+  background-image: url(../img/02.jpeg);
+  height: 200px;
+  width: 200px;
+  background-size: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+
+}
+
+.img_shadow {
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,.7);
+  background-color: rgba(0, 0, 0, .7);
   border-radius: 100%;
   transition-duration: .4s;
 }
-.img_shadow:hover{
+
+.img_shadow:hover {
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0, 0, 0, 0);
   border-radius: 100%;
 }
+
 .para {
   text-align: center;
   font-weight: 600;
-  width:100%;
+  width: 100%;
   font-size: 15px;
   margin: 0 auto;
 }
@@ -161,8 +200,7 @@ h5 {
 }
 
 .box {
-  width:23%;
-
+  width: 23%;
   margin: 10px;
   padding-bottom: 20px;
 }
@@ -183,26 +221,25 @@ h1 {
 .icons {
   display: flex;
   justify-content: space-around;
-height:50px;
-margin: 10px;
+  height: 50px;
+  margin: 10px;
 }
-
 
 .icon {
   font-size: 30px;
   transition-duration: .3s;
 }
 
-.icon:nth-child(1):hover{
-color: red;
-  font-size: 50px;;
+.icon:nth-child(1):hover {
+  color: red;
+  font-size: 50px;
+  ;
 }
 
 @media screen and (max-width: 1100px) {
   * {
     padding: 0;
     margin: 0;
-    background-color: #F1F1F1;
     font-family: cairo;
     color: #575757;
   }
@@ -217,30 +254,28 @@ color: red;
     justify-content: space-around;
   }
   .box {
-
-padding-bottom: 50px;
+    padding-bottom: 50px;
     width: 300px;
     margin: 10px;
   }
-
   .para {
     text-align: center;
     font-weight: 600;
-    width:100%;
+    width: 100%;
     font-size: 15px;
     margin: 0 auto;
   }
-
-
 }
 
 @media screen and (max-width: 1100px) {
   * {
     padding: 0;
     margin: 0;
-    background-color: #F1F1F1;
     font-family: cairo;
     color: #575757;
+  }
+  .head .cover--content h1{
+    color: #FFF;
   }
   .container_box {
     padding-top: 50px;
@@ -252,19 +287,420 @@ padding-bottom: 50px;
     flex-wrap: wrap;
   }
   .box {
-
-padding-bottom: 50px;
+    padding-bottom: 50px;
     width: 300px;
     margin: 10px;
   }
-
   .para {
     text-align: center;
     font-weight: 600;
-    width:100%;
+    width: 100%;
     font-size: 15px;
     margin: 0 auto;
   }
+}
 
+/*Asala work*/
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.clear {
+  clear: both;
+}
+
+/****************************/
+
+.top {
+  width: 100%;
+  font-family: Cairo;
+  font-size: 18px;
+  line-height: 1.2em;
+  font-weight: 400;
+}
+
+.header {
+  width: 100%;
+  height: 600px;
+  background: url(../img/cover.jpeg) center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.header .header-cover {
+  width: 100%;
+  height: 600px;
+  background: rgba(0, 20, 20, 0.7);
+  overflow: hidden;
+}
+
+.header nav {
+  padding: 20px 0px 30px 0px;
+  margin-right: auto;
+  margin-left: auto;
+  background:rgb(0, 0, 0);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 9999999999999;
+  display: flex;
+  justify-content: space-around;
+  min-height: 70px;
+  max-height: 70px;
+}
+
+.navbar-fixed-top .scrolled {
+  padding: 20px 30px 20px 30px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #000 !important;
+  transition: background 200ms linear;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-around;
+  min-height: 50px;
+  max-height: 50px;
+}
+
+nav .brand-name {
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+}
+
+nav .brand-name ::after {
+  min-height: 10px;
+  color: #00BB5F;
+  width: 100%;
+  display: block;
+}
+
+nav .brand-name h2 .logo-mark {
+  color: #00BB5F;
+  margin-right: 5px;
+}
+
+nav .brand-name .logo {
+  font-weight: bold;
+  font-size: 30px;
+  color: #00BB5F;
+  text-transform: uppercase;
+  animation: color 1.5s linear 0s infinite;
+}
+
+@keyframes color {
+  from {
+    color: #00BB5F;
+  }
+  to {
+    color: #fff;
+  }
+}
+
+.main-links {
+  display: flex;
+  justify-content: center;
+}
+
+.main-links .nav-link {
+  padding: 0 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  transition: all 0.6 ease-in;
+}
+
+.main-links .nav-link:hover {
+  color: #00BB5F;
+}
+
+/*.active a{
+    color: rgb(0, 252, 0);
+}*/
+
+.head {
+  padding-top: 70px;
+  height: 550px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.head .cover--content {
+  line-height: 2;
+  color: #fff;
+}
+
+.head .cover--content h1 {
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  font-size: 45px;
+  line-height: 1.5;
+}
+
+.head .cover--content p {
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.head .cover--content .formore-btn .btn {
+  display: block;
+  width: 200px;
+  margin: auto;
+  background: #00BB5F;
+  color: #fff;
+  letter-spacing: 1.5px;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 100px;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  min-height: 150px;
+  max-height: 150px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px 0px 30px;
+}
+
+footer .footer--name {
+  letter-spacing: 3px;
+  padding-top: 40px;
+}
+
+footer .footer--name h2 {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 40px;
+}
+
+footer .footer--name span {
+  color: #00BB5F;
+  margin-right: 5px;
+}
+
+footer .footer--links, footer .footer--copyright {
+  letter-spacing: 2px;
+  padding-top: 90px;
+  font-size: 15px;
+}
+
+footer .footer--links .main-nav {
+  display: flex;
+  justify-content: center;
+}
+
+footer .footer--links .nav-link {
+  padding: 0 10px;
+  letter-spacing: 1.5px;
+  text-transform: capitalize;
+}
+
+footer .footer--links .nav-link:hover {
+  color: #00BB5F;
+  font-weight: bold;
+}
+
+/* Start Media **************************************************************/
+
+@media only screen and (max-width:900px) {
+  .header {
+    width: 100%;
+    height: 300px;
+    background: #000 !important;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .header .header-cover {
+    width: 100%;
+    height: 300px;
+    background: rgba(0, 25, 23, 0.7) !important;
+    margin-bottom: 5%;
+    overflow: hidden;
+  }
+  .header nav {
+    padding: 10px 15px 10px 10px;
+    margin-right: auto;
+    margin-left: auto;
+    /*background:rgb(0, 0, 0);*/
+    width: 100%;
+    position: relative;
+    font-size: 13px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-around;
+    min-height: 50px;
+    max-height: 50px;
+  }
+  .navbar-fixed-top.scrolled {
+    padding: 0px 10px 0px 10px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #000 ;
+    transition: background 200ms linear;
+    width: 100%;
+    font-size: 13px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-around;
+    min-height: 50px;
+    max-height: 50px;
+  }
+  nav .brand-name {
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+  }
+  nav .brand-name h2 .logo-mark {
+    color: #00BB5F;
+    margin-right: 2px;
+  }
+  nav .brand-name .logo {
+    display: none;
+  }
+  .main-links {
+    display: flex;
+    justify-content: center;
+  }
+  .main-links .nav-link {
+    padding: 0 5px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+    transition: all 0.6 ease-in;
+  }
+  .main-links .nav-link:hover {
+    color: #00BB5F;
+  }
+  /*.active a{
+        color: rgb(0, 252, 0);
+    }*/
+  .head {
+    padding-top: 10px;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .head .cover--content {
+    line-height: 2;
+    color: #fff;
+  }
+  .head .cover--content h1 {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 30px;
+  }
+  .head .cover--content p {
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: #FFF;
+  }
+  .head .cover--content .formore-btn .btn {
+    display: none;
+    width: 50%;
+    margin: auto;
+    background: #00BB5F;
+    color: #fff;
+    letter-spacing: 1px;
+    border: none;
+    padding: 6px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  footer {
+    background: #000;
+    color: #fff;
+    min-height: 150px;
+    max-height: 150px;
+    display: block;
+    text-align: center;
+    padding: 5px 10px 0px 10px;
+  }
+  footer .footer--name {
+    letter-spacing: 2px;
+    padding-top: 10px;
+  }
+  footer .footer--name h2 {
+    color: #fff;
+    text-transform: capitalize;
+  }
+  footer .footer--name span {
+    color: #00BB5F;
+    margin-right: 5px;
+  }
+  footer .footer--links, footer .footer--copyright {
+    letter-spacing: 0px;
+    padding-top: 10px;
+    display: block;
+    font-size: 15px;
+  }
+  footer .footer--links .main-nav {
+    display: flex;
+    justify-content: center;
+  }
+  footer .footer--links .nav-link {
+    padding: 0 10px;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+  }
+  footer .footer--links .nav-link:hover {
+    color: #00BB5F;
+    font-weight: bold;
+  }
+}
+
+.About_us_h2 {
+  width: 250px;
+  font-size: 50px;
+  margin: 0 auto;
+}
+
+.para_about_us {
+  padding-top: 60px;
+    text-align: center;
+    font-size: 25px;
+    overflow: hidden;
+}
+
+.About_us {
+  min-height: 500px;
+  background: #F1F1F1;
+  padding-top: 40px;
+
+}
+
+.img_left {
+  background-image: url(../img/3.jpg);
+  background-size: 600px;
+  background-position: center center;
+  height: 300px;
+  width: 300px;
+  border-radius: 100%;
 }
